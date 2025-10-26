@@ -20,7 +20,11 @@ dependencies:
   dio: ^5.3.4
   flutter_app_builder: ^0.6.0
   flutter_app_packager: ^0.6.5
-  flutter_app_publisher: ^0.6.6
+  flutter_app_publisher:
+    git:
+      url: https://github.com/mozomig/fastforge.git
+      path: packages/flutter_app_publisher
+      ref: 54d1c6491a892d982a4576750e7d35e4de06c647
   logging: ^1.0.2
   path: ^1.8.1
   pubspec_parse: ^1.1.0
