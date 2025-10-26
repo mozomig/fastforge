@@ -27,8 +27,7 @@ class AppPackagePublisherPlayStore extends AppPackagePublisher {
     );
 
     String jsonString = File(publishConfig.credentialsFile).readAsStringSync();
-    ServiceAccountCredentials serviceAccountCredentials =
-        ServiceAccountCredentials.fromJson(json.decode(jsonString));
+    ServiceAccountCredentials serviceAccountCredentials = ServiceAccountCredentials.fromJson(json.decode(jsonString));
 
     final client = await clientViaServiceAccount(
       serviceAccountCredentials,
@@ -52,8 +51,9 @@ class AppPackagePublisherPlayStore extends AppPackagePublisher {
     );
 
     if (publishConfig.track != null) {
-      final versions = file.path.split('/').last.split('-')[1].split('+');
-      final name = '${versions[1]} (${versions[0]})';
+      final fileName = file.path.split('/').last;
+      final versionInfo = _extractVersionFromFileName(fileName);
+      final name = '${versionInfo['build']} (${versionInfo['version']})';
       final track = Track(
         track: publishConfig.track,
         releases: [
@@ -80,5 +80,21 @@ class AppPackagePublisherPlayStore extends AppPackagePublisher {
     return PublishResult(
       url: '',
     );
+  }
+
+  Map<String, String> _extractVersionFromFileName(String fileName) {
+    final versionRegex = RegExp(r'(\d+\.\d+\.\d+)\+(\d+)');
+    final match = versionRegex.firstMatch(fileName);
+
+    if (match == null || match.groupNames.length != 2) {
+      throw PublishError(
+        'Failed to extract version from file name: $fileName. Expected format: name-1.0.0+1-android',
+      );
+    }
+
+    return {
+      'version': match.group(1)!,
+      'build': match.group(2)!,
+    };
   }
 }
