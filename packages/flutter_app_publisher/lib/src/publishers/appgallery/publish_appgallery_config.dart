@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:flutter_app_publisher/flutter_app_publisher.dart';
+import 'package:plus_flutter_app_publisher/plus_flutter_app_publisher.dart';
 
 const kEnvAppGalleryClientId = 'APP_GALLERY_CLIENT_ID';
 const kEnvAppGalleryClientSecret = 'APP_GALLERY_CLIENT_SECRET';

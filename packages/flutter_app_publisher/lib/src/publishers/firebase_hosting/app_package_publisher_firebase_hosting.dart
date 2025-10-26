@@ -1,9 +1,9 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:flutter_app_publisher/src/api/app_package_publisher.dart';
-import 'package:flutter_app_publisher/src/publishers/firebase_hosting/publish_firebase_hosting_config.dart';
-import 'package:shell_executor/shell_executor.dart';
+import 'package:plus_flutter_app_publisher/src/api/app_package_publisher.dart';
+import 'package:plus_flutter_app_publisher/src/publishers/firebase_hosting/publish_firebase_hosting_config.dart';
+import 'package:plus_shell_executor/plus_shell_executor.dart';
 
 class AppPackagePublisherFirebaseHosting extends AppPackagePublisher {
   @override

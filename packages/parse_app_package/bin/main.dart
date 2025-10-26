@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:args/args.dart';
-import 'package:parse_app_package/parse_app_package.dart';
+import 'package:plus_parse_app_package/plus_parse_app_package.dart';
 
 JsonEncoder _encoder = const JsonEncoder.withIndent('  ');
 

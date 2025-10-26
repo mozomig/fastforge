@@ -1,4 +1,4 @@
-import 'package:shell_executor/src/utils/path_expansion.dart';
+import 'package:plus_shell_executor/src/utils/path_expansion.dart';
 import 'package:test/test.dart';
 
 void main() {

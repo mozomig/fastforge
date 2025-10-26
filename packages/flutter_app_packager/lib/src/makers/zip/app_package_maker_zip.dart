@@ -1,8 +1,8 @@
 import 'dart:io';
 
 import 'package:archive/archive_io.dart';
-import 'package:flutter_app_packager/src/api/app_package_maker.dart';
-import 'package:shell_executor/shell_executor.dart';
+import 'package:plus_flutter_app_packager/src/api/app_package_maker.dart';
+import 'package:plus_shell_executor/plus_shell_executor.dart';
 
 class AppPackageMakerZip extends AppPackageMaker {
   AppPackageMakerZip(String platform) {

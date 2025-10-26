@@ -1,8 +1,8 @@
 import 'dart:io';
 
-import 'package:flutter_app_publisher/src/api/app_package_publisher.dart';
-import 'package:flutter_app_publisher/src/publishers/appstore/publish_appstore_config.dart';
-import 'package:shell_executor/shell_executor.dart';
+import 'package:plus_flutter_app_publisher/src/api/app_package_publisher.dart';
+import 'package:plus_flutter_app_publisher/src/publishers/appstore/publish_appstore_config.dart';
+import 'package:plus_shell_executor/plus_shell_executor.dart';
 
 /// AppStore doc [https://help.apple.com/asc/appsaltool/]
 class AppPackagePublisherAppStore extends AppPackagePublisher {

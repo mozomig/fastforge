@@ -1,7 +1,7 @@
 import 'dart:io';
 
-import 'package:flutter_app_packager/src/api/make_config.dart';
-import 'package:flutter_app_packager/src/api/make_error.dart';
+import 'package:plus_flutter_app_packager/src/api/make_config.dart';
+import 'package:plus_flutter_app_packager/src/api/make_error.dart';
 
 class MakeResult {
   MakeResult(

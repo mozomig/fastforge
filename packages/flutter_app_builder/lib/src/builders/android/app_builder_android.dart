@@ -1,6 +1,6 @@
-import 'package:flutter_app_builder/src/build_result.dart';
-import 'package:flutter_app_builder/src/builders/android/build_android_result.dart';
-import 'package:flutter_app_builder/src/builders/app_builder.dart';
+import 'package:plus_flutter_app_builder/src/build_result.dart';
+import 'package:plus_flutter_app_builder/src/builders/android/build_android_result.dart';
+import 'package:plus_flutter_app_builder/src/builders/app_builder.dart';
 
 class AppBuilderAndroid extends AppBuilder {
   AppBuilderAndroid(this.target);

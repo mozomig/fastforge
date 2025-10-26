@@ -1,4 +1,4 @@
-library unified_distributor;
+library plus_unified_distributor;
 
 export 'src/check_version_result.dart';
 export 'src/cli/cli.dart';

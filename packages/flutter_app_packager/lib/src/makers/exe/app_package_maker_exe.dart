@@ -1,9 +1,9 @@
 import 'dart:io';
 
-import 'package:flutter_app_packager/src/api/app_package_maker.dart';
-import 'package:flutter_app_packager/src/makers/exe/inno_setup/inno_setup_compiler.dart';
-import 'package:flutter_app_packager/src/makers/exe/inno_setup/inno_setup_script.dart';
-import 'package:flutter_app_packager/src/makers/exe/make_exe_config.dart';
+import 'package:plus_flutter_app_packager/src/api/app_package_maker.dart';
+import 'package:plus_flutter_app_packager/src/makers/exe/inno_setup/inno_setup_compiler.dart';
+import 'package:plus_flutter_app_packager/src/makers/exe/inno_setup/inno_setup_script.dart';
+import 'package:plus_flutter_app_packager/src/makers/exe/make_exe_config.dart';
 import 'package:io/io.dart';
 
 class AppPackageMakerExe extends AppPackageMaker {

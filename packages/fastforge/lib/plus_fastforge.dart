@@ -1,6 +1,6 @@
-library fastforge;
+library plus_fastforge;
 
-import 'package:unified_distributor/unified_distributor.dart';
+import 'package:plus_unified_distributor/plus_unified_distributor.dart';
 
 /// The main class for the Fastforge package.
 ///

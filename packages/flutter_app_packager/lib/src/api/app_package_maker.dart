@@ -1,9 +1,9 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:flutter_app_packager/src/api/make_config.dart';
-import 'package:flutter_app_packager/src/api/make_result.dart';
-import 'package:shell_executor/shell_executor.dart';
+import 'package:plus_flutter_app_packager/src/api/make_config.dart';
+import 'package:plus_flutter_app_packager/src/api/make_result.dart';
+import 'package:plus_shell_executor/plus_shell_executor.dart';
 import 'package:yaml/yaml.dart';
 
 export 'make_config.dart';

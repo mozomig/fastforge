@@ -1,9 +1,9 @@
-name: unified_distributor
+name: plus_unified_distributor
 description: A powerful and efficient tool for packaging and publishing your applications with ease.
 version: 0.2.6
-homepage: https://fastforge.dev
-repository: https://github.com/fastforgedev/fastforge/tree/main/packages/unified_distributor
-issue_tracker: https://github.com/fastforgedev/fastforge/issues
+homepage: https://github.com/mozomig/fastforge
+repository: https://github.com/mozomig/fastforge/tree/main/packages/unified_distributor
+issue_tracker: https://github.com/mozomig/fastforge/issues
 
 platforms:
   linux:
@@ -18,18 +18,14 @@ dependencies:
   args: ^2.2.0
   charset: ^2.0.1
   dio: ^5.3.4
-  flutter_app_builder: ^0.6.0
-  flutter_app_packager: ^0.6.5
-  flutter_app_publisher:
-    git:
-      url: https://github.com/mozomig/fastforge.git
-      path: packages/flutter_app_publisher
-      ref: 54d1c6491a892d982a4576750e7d35e4de06c647
+  plus_flutter_app_builder: ^0.6.0
+  plus_flutter_app_packager: ^0.6.5
+  plus_flutter_app_publisher: ^0.6.6
   logging: ^1.0.2
   path: ^1.8.1
   pubspec_parse: ^1.1.0
-  shell_executor: ^0.3.0
-  shell_uikit: ^0.3.0
+  plus_shell_executor: ^0.3.0
+  plus_shell_uikit: ^0.3.0
   yaml: ^3.1.0
 
 dev_dependencies:

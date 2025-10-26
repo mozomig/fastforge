@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:flutter_app_publisher/src/api/app_package_publisher.dart';
+import 'package:plus_flutter_app_publisher/src/api/app_package_publisher.dart';
 
 const kEnvMinioEndpoint = 'MINIO_ENDPOINT';
 const kEnvMinioAccessKey = 'MINIO_ACCESS_KEY';

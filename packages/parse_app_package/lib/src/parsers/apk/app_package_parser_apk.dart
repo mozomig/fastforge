@@ -1,7 +1,7 @@
 import 'dart:io';
 
-import 'package:parse_app_package/src/api/app_package_parser.dart';
-import 'package:shell_executor/shell_executor.dart';
+import 'package:plus_parse_app_package/src/api/app_package_parser.dart';
+import 'package:plus_shell_executor/plus_shell_executor.dart';
 
 class AppPackageParserApk extends AppPackageParser {
   @override

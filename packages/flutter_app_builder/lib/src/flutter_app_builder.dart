@@ -1,6 +1,6 @@
-import 'package:flutter_app_builder/src/build_result.dart';
-import 'package:flutter_app_builder/src/builders/builders.dart';
-import 'package:flutter_app_builder/src/commands/flutter.dart';
+import 'package:plus_flutter_app_builder/src/build_result.dart';
+import 'package:plus_flutter_app_builder/src/builders/builders.dart';
+import 'package:plus_flutter_app_builder/src/commands/flutter.dart';
 
 class FlutterAppBuilder {
   final List<AppBuilder> _builders = [

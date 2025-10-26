@@ -1,5 +1,5 @@
-import 'package:flutter_app_publisher/src/api/app_package_publisher.dart';
-import 'package:flutter_app_publisher/src/publishers/github/publish_github_config.dart';
+import 'package:plus_flutter_app_publisher/src/api/app_package_publisher.dart';
+import 'package:plus_flutter_app_publisher/src/publishers/github/publish_github_config.dart';
 import 'package:test/test.dart';
 
 void main() {

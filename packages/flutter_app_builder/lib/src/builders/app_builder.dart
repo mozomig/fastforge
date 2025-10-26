@@ -1,9 +1,9 @@
 import 'dart:io';
 
-import 'package:flutter_app_builder/src/build_config.dart';
-import 'package:flutter_app_builder/src/build_error.dart';
-import 'package:flutter_app_builder/src/build_result.dart';
-import 'package:flutter_app_builder/src/commands/flutter.dart';
+import 'package:plus_flutter_app_builder/src/build_config.dart';
+import 'package:plus_flutter_app_builder/src/build_error.dart';
+import 'package:plus_flutter_app_builder/src/build_result.dart';
+import 'package:plus_flutter_app_builder/src/commands/flutter.dart';
 import 'package:pub_semver/pub_semver.dart';
 import 'package:pubspec_parse/pubspec_parse.dart';
 

@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:shell_executor/src/shell_executor.dart';
+import 'package:plus_shell_executor/src/shell_executor.dart';
 
 abstract class Command {
   String get executable => throw UnimplementedError();

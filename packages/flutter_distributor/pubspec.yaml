@@ -1,9 +1,9 @@
-name: flutter_distributor
+name: plus_flutter_distributor
 description: A powerful and efficient tool for packaging and publishing your applications with ease.
 version: 0.6.6
-homepage: https://fastforge.dev
-repository: https://github.com/fastforgedev/fastforge/tree/main/packages/flutter_distributor
-issue_tracker: https://github.com/fastforgedev/fastforge/issues
+homepage: https://github.com/mozomig/fastforge
+repository: https://github.com/mozomig/fastforge/tree/main/packages/flutter_distributor
+issue_tracker: https://github.com/mozomig/fastforge/issues
 
 platforms:
   linux:
@@ -14,7 +14,7 @@ environment:
   sdk: ">=2.16.0 <4.0.0"
 
 dependencies:
-  unified_distributor: ^0.2.6
+  plus_unified_distributor: ^0.2.6
 
 dev_dependencies:
   mostly_reasonable_lints: ^0.1.2

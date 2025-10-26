@@ -1,7 +1,7 @@
 import 'dart:io';
 
-import 'package:flutter_app_packager/src/api/app_package_maker.dart';
-import 'package:flutter_app_packager/src/makers/msix/make_msix_config.dart';
+import 'package:plus_flutter_app_packager/src/api/app_package_maker.dart';
+import 'package:plus_flutter_app_packager/src/makers/msix/make_msix_config.dart';
 import 'package:msix/msix.dart';
 import 'package:path/path.dart' as p;
 

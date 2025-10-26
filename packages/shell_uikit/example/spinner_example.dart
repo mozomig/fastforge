@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'package:shell_uikit/shell_uikit.dart';
+import 'package:plus_shell_uikit/plus_shell_uikit.dart';
 
 /// This example demonstrates how to use various features of the Spinner component
 void main() async {

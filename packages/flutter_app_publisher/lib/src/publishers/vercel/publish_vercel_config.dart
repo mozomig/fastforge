@@ -1,4 +1,4 @@
-import 'package:flutter_app_publisher/src/api/app_package_publisher.dart';
+import 'package:plus_flutter_app_publisher/src/api/app_package_publisher.dart';
 
 class PublishVercelConfig extends PublishConfig {
   PublishVercelConfig({

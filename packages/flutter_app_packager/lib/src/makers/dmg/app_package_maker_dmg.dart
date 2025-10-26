@@ -1,10 +1,10 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:flutter_app_packager/src/api/app_package_maker.dart';
-import 'package:flutter_app_packager/src/makers/dmg/commands/appdmg.dart';
-import 'package:flutter_app_packager/src/makers/dmg/make_dmg_config.dart';
-import 'package:shell_executor/shell_executor.dart';
+import 'package:plus_flutter_app_packager/src/api/app_package_maker.dart';
+import 'package:plus_flutter_app_packager/src/makers/dmg/commands/appdmg.dart';
+import 'package:plus_flutter_app_packager/src/makers/dmg/make_dmg_config.dart';
+import 'package:plus_shell_executor/plus_shell_executor.dart';
 
 class AppPackageMakerDmg extends AppPackageMaker {
   @override

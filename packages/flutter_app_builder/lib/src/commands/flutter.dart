@@ -3,7 +3,7 @@ import 'dart:io';
 
 import 'package:path/path.dart' as p;
 import 'package:pub_semver/pub_semver.dart';
-import 'package:shell_executor/shell_executor.dart';
+import 'package:plus_shell_executor/plus_shell_executor.dart';
 
 class FlutterVersion {
   const FlutterVersion({

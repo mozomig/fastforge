@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:flutter_app_packager/src/api/app_package_maker.dart';
+import 'package:plus_flutter_app_packager/src/api/app_package_maker.dart';
 
 // Ported from https://gist.github.com/Earnestly/bebad057f40a662b5cc3
 // format of make_config for pacman

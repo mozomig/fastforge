@@ -1,5 +1,5 @@
 import 'package:test/test.dart';
-import 'package:unified_distributor/src/extensions/string.dart';
+import 'package:plus_unified_distributor/src/extensions/string.dart';
 
 void main() {
   // print('black        '.black());

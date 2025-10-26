@@ -1,8 +1,8 @@
 import 'dart:io';
 
 import 'package:args/command_runner.dart';
-import 'package:unified_distributor/src/extensions/string.dart';
-import 'package:unified_distributor/src/unified_distributor.dart';
+import 'package:plus_unified_distributor/src/extensions/string.dart';
+import 'package:plus_unified_distributor/src/unified_distributor.dart';
 
 /// Package an application bundle for a specific platform and target
 ///

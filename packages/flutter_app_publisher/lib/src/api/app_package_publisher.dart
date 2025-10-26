@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:pub_semver/pub_semver.dart' show Version;
 import 'package:pubspec_parse/pubspec_parse.dart';
-import 'package:shell_executor/shell_executor.dart';
+import 'package:plus_shell_executor/plus_shell_executor.dart';
 
 export 'package:pub_semver/pub_semver.dart' show Version;
 

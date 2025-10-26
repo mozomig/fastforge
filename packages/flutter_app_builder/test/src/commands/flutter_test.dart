@@ -1,4 +1,4 @@
-import 'package:flutter_app_builder/src/commands/flutter.dart';
+import 'package:plus_flutter_app_builder/src/commands/flutter.dart';
 import 'package:test/test.dart';
 
 void main() {

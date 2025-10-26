@@ -1,21 +1,21 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:flutter_app_builder/flutter_app_builder.dart';
-import 'package:flutter_app_packager/flutter_app_packager.dart';
-import 'package:flutter_app_publisher/flutter_app_publisher.dart';
+import 'package:plus_flutter_app_builder/plus_flutter_app_builder.dart';
+import 'package:plus_flutter_app_packager/plus_flutter_app_packager.dart';
+import 'package:plus_flutter_app_publisher/plus_flutter_app_publisher.dart';
 import 'package:path/path.dart' as p;
 import 'package:pubspec_parse/pubspec_parse.dart';
-import 'package:shell_executor/shell_executor.dart';
-import 'package:shell_uikit/shell_uikit.dart';
-import 'package:unified_distributor/src/check_version_result.dart';
-import 'package:unified_distributor/src/distribute_options.dart';
-import 'package:unified_distributor/src/extensions/string.dart';
-import 'package:unified_distributor/src/release.dart';
-import 'package:unified_distributor/src/release_job.dart';
-import 'package:unified_distributor/src/utils/default_shell_executor.dart';
-import 'package:unified_distributor/src/utils/logger.dart';
-import 'package:unified_distributor/src/utils/pub_dev_api.dart';
+import 'package:plus_shell_executor/plus_shell_executor.dart';
+import 'package:plus_shell_uikit/plus_shell_uikit.dart';
+import 'package:plus_unified_distributor/src/check_version_result.dart';
+import 'package:plus_unified_distributor/src/distribute_options.dart';
+import 'package:plus_unified_distributor/src/extensions/string.dart';
+import 'package:plus_unified_distributor/src/release.dart';
+import 'package:plus_unified_distributor/src/release_job.dart';
+import 'package:plus_unified_distributor/src/utils/default_shell_executor.dart';
+import 'package:plus_unified_distributor/src/utils/logger.dart';
+import 'package:plus_unified_distributor/src/utils/pub_dev_api.dart';
 import 'package:yaml/yaml.dart';
 
 /// A class that provides a unified interface for distributing applications

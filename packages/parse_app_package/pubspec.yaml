@@ -1,8 +1,8 @@
-name: parse_app_package
+name: plus_parse_app_package
 description: Parse app package
 version: 0.6.0
-homepage: https://fastforge.dev
-repository: https://github.com/fastforgedev/fastforge/tree/main/packages/parse_app_package
+homepage: https://github.com/mozomig/fastforge
+repository: https://github.com/mozomig/fastforge/tree/main/packages/parse_app_package
 
 environment:
   sdk: ">=2.16.0 <4.0.0"
@@ -11,7 +11,7 @@ dependencies:
   archive: ^3.6.1
   args: ^2.2.0
   plist_parser: ^0.0.11
-  shell_executor: ^0.3.0
+  plus_shell_executor: ^0.3.0
 
 executables:
   parse_app_package: main

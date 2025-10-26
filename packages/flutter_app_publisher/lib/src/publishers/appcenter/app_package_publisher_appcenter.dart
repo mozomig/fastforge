@@ -2,9 +2,9 @@ import 'dart:io';
 import 'dart:typed_data';
 
 import 'package:dio/dio.dart';
-import 'package:flutter_app_publisher/src/api/app_package_publisher.dart';
-import 'package:flutter_app_publisher/src/publishers/appcenter/publish_appcenter_config.dart';
-import 'package:shell_executor/shell_executor.dart';
+import 'package:plus_flutter_app_publisher/src/api/app_package_publisher.dart';
+import 'package:plus_flutter_app_publisher/src/publishers/appcenter/publish_appcenter_config.dart';
+import 'package:plus_shell_executor/plus_shell_executor.dart';
 
 const _kUploadDomain = 'https://file.appcenter.ms/upload';
 

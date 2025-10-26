@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:flutter_app_packager/src/makers/exe/make_exe_config.dart';
+import 'package:plus_flutter_app_packager/src/makers/exe/make_exe_config.dart';
 import 'package:liquid_engine/liquid_engine.dart';
 import 'package:path/path.dart' as path;
 

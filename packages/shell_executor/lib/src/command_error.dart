@@ -1,4 +1,4 @@
-import 'package:shell_executor/src/command.dart';
+import 'package:plus_shell_executor/src/command.dart';
 
 class CommandError extends Error {
   CommandError(this.command, [this.message]);

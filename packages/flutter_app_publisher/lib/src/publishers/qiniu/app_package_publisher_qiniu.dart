@@ -1,8 +1,8 @@
 import 'dart:io';
 
-import 'package:flutter_app_publisher/src/api/app_package_publisher.dart';
-import 'package:flutter_app_publisher/src/publishers/qiniu/publish_qiniu_config.dart';
-// import 'package:parse_app_package/parse_app_package.dart';
+import 'package:plus_flutter_app_publisher/src/api/app_package_publisher.dart';
+import 'package:plus_flutter_app_publisher/src/publishers/qiniu/publish_qiniu_config.dart';
+// import 'package:plus_parse_app_package/plus_parse_app_package.dart';
 import 'package:qiniu_sdk_base/qiniu_sdk_base.dart';
 
 class AppPackagePublisherQiniu extends AppPackagePublisher {

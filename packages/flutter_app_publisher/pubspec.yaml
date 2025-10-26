@@ -1,8 +1,8 @@
-name: flutter_app_publisher
+name: plus_flutter_app_publisher
 description: Flutter app publisher
 version: 0.6.6
-homepage: https://fastforge.dev
-repository: https://github.com/fastforgedev/fastforge/tree/main/packages/flutter_app_publisher
+homepage: https://github.com/mozomig/fastforge
+repository: https://github.com/mozomig/fastforge/tree/main/packages/flutter_app_publisher
 
 environment:
   sdk: ">=2.16.0 <4.0.0"
@@ -12,11 +12,11 @@ dependencies:
   googleapis: ^13.2.0
   googleapis_auth: ^1.6.0
   minio: ^3.5.8
-  parse_app_package: ^0.6.0
+  plus_parse_app_package: ^0.6.0
   pub_semver: ^2.2.0
   pubspec_parse: ^1.1.0
   qiniu_sdk_base: ^0.5.0
-  shell_executor: ^0.3.0
+  plus_shell_executor: ^0.3.0
 
 dev_dependencies:
   dependency_validator: ^3.0.0

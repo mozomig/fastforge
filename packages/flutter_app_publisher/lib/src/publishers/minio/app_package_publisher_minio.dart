@@ -1,7 +1,7 @@
 import 'dart:io';
 
-import 'package:flutter_app_publisher/src/api/app_package_publisher.dart';
-import 'package:flutter_app_publisher/src/publishers/minio/publish_minio_config.dart';
+import 'package:plus_flutter_app_publisher/src/api/app_package_publisher.dart';
+import 'package:plus_flutter_app_publisher/src/publishers/minio/publish_minio_config.dart';
 import 'package:minio/io.dart';
 import 'package:minio/minio.dart';
 

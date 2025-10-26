@@ -2,7 +2,7 @@ import 'dart:async';
 import 'dart:io';
 import 'dart:math' as math;
 
-import 'package:shell_uikit/shell_uikit.dart';
+import 'package:plus_shell_uikit/plus_shell_uikit.dart';
 
 /// This example demonstrates various ways to use the ProgressBar component.
 void main() async {

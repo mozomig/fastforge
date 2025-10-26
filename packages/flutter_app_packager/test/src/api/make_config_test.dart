@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:flutter_app_packager/src/api/make_config.dart';
+import 'package:plus_flutter_app_packager/src/api/make_config.dart';
 import 'package:pub_semver/pub_semver.dart';
 import 'package:pubspec_parse/pubspec_parse.dart';
 import 'package:test/test.dart';

@@ -1,4 +1,4 @@
-import 'package:flutter_app_packager/src/api/app_package_maker.dart';
+import 'package:plus_flutter_app_packager/src/api/app_package_maker.dart';
 
 class AppPackageMakerAab extends AppPackageMaker {
   @override

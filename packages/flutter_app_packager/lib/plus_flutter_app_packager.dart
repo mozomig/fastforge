@@ -1,4 +1,4 @@
-library flutter_app_packager;
+library plus_flutter_app_packager;
 
 export 'src/api/app_package_maker.dart';
 export 'src/api/make_config.dart';

@@ -1,6 +1,6 @@
-import 'package:flutter_app_builder/src/build_config.dart';
-import 'package:flutter_app_builder/src/builders/windows/build_windows_result.dart';
-import 'package:flutter_app_builder/src/commands/flutter.dart';
+import 'package:plus_flutter_app_builder/src/build_config.dart';
+import 'package:plus_flutter_app_builder/src/builders/windows/build_windows_result.dart';
+import 'package:plus_flutter_app_builder/src/commands/flutter.dart';
 import 'package:test/test.dart';
 
 void main() {

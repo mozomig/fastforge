@@ -1,8 +1,8 @@
 import 'dart:io';
 
 import 'package:dio/dio.dart';
-import 'package:flutter_app_publisher/flutter_app_publisher.dart';
-import 'package:flutter_app_publisher/src/publishers/appgallery/publish_appgallery_config.dart';
+import 'package:plus_flutter_app_publisher/plus_flutter_app_publisher.dart';
+import 'package:plus_flutter_app_publisher/src/publishers/appgallery/publish_appgallery_config.dart';
 
 /// Huawei AppGallery Connect publishing API doc
 /// [https://developer.huawei.com/consumer/cn/doc/app/agc-help-test-api-add-test-package-0000002236201330]

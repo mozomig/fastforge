@@ -1,8 +1,8 @@
-name: shell_executor
+name: plus_shell_executor
 description: A simple shell commands executor.
 version: 0.3.0
-homepage: https://fastforge.dev
-repository: https://github.com/fastforgedev/fastforge/tree/main/packages/shell_executor
+homepage: https://github.com/mozomig/fastforge
+repository: https://github.com/mozomig/fastforge/tree/main/packages/shell_executor
 
 environment:
   sdk: ">=2.16.0 <4.0.0"

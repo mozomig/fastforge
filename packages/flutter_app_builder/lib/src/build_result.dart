@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:flutter_app_builder/src/build_config.dart';
+import 'package:plus_flutter_app_builder/src/build_config.dart';
 
 abstract class BuildResult {
   BuildResult(
