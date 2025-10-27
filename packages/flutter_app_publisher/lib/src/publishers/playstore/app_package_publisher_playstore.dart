@@ -75,6 +75,7 @@ class AppPackagePublisherPlayStore extends AppPackagePublisher {
     await publisherApi.edits.commit(
       publishConfig.packageName,
       appEdit.id!,
+      changesNotSentForReview: publishConfig.changesNotSentForReview,
     );
 
     return PublishResult(
@@ -86,7 +87,7 @@ class AppPackagePublisherPlayStore extends AppPackagePublisher {
     final versionRegex = RegExp(r'(\d+\.\d+\.\d+)\+(\d+)');
     final match = versionRegex.firstMatch(fileName);
 
-    if (match == null || match.groupNames.length != 2) {
+    if (match == null || match.groupCount != 2) {
       throw PublishError(
         'Failed to extract version from file name: $fileName. Expected format: name-1.0.0+1-android',
       );

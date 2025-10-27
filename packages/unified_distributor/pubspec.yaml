@@ -1,6 +1,6 @@
 name: plus_unified_distributor
 description: A powerful and efficient tool for packaging and publishing your applications with ease.
-version: 0.2.6
+version: 0.2.7
 homepage: https://github.com/mozomig/fastforge
 repository: https://github.com/mozomig/fastforge/tree/main/packages/unified_distributor
 issue_tracker: https://github.com/mozomig/fastforge/issues
@@ -20,7 +20,7 @@ dependencies:
   dio: ^5.3.4
   plus_flutter_app_builder: ^0.6.0
   plus_flutter_app_packager: ^0.6.5
-  plus_flutter_app_publisher: ^0.6.6
+  plus_flutter_app_publisher: ^0.6.7
   logging: ^1.0.2
   path: ^1.8.1
   pubspec_parse: ^1.1.0

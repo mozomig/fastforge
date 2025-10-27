@@ -1,3 +1,8 @@
+## 0.6.7
+
+* fix: Fix PlayStore version extraction regex to handle multi-digit build numbers
+* fix: Add changesNotSentForReview parameter to PlayStore publisher to prevent automatic review submission
+
 ## 0.6.6
 
 * feat: add comprehensive pgyer upload parameters support #297

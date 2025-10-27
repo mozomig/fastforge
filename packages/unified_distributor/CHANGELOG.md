@@ -1,3 +1,7 @@
+## 0.2.7
+
+* fix: Update flutter_app_publisher dependency to 0.6.7 with PlayStore fixes
+
 ## 0.2.6
 
 * feat: add comprehensive pgyer upload parameters support #297
