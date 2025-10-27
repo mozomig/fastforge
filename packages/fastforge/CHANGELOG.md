@@ -1,3 +1,7 @@
+## 0.6.7
+
+* fix: Update unified_distributor dependency to 0.2.7 with PlayStore fixes
+
 ## 0.6.6
 
 * feat: add comprehensive pgyer upload parameters support #297
